@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 80px;
+  margin-bottom: 0;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
